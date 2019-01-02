@@ -6,7 +6,7 @@ mygpr = gp.gprpy2d()
 import numpy as np
 for i in range(1,46+1):
     for d in range(1,3):
-        inname='Grid14-dir%d-Rawdata/FILE____%03d.DZT' %(d,i)
+        inname='Grid-dir%d-Rawdata/FILE____%03d.DZT' %(d,i)
         mygpr.importdata(inname)
         mygpr.remMeanTrace(99999999)
         mygpr.setZeroTime(14)

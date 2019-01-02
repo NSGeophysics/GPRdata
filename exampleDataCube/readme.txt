@@ -44,6 +44,8 @@ python createDataCube.py
 
 (or python3 createDataCube.py)
 
+The data interpolation could take a few seconds or even minutes.
+
 Open createDataCube.py with an editor to see the options for the GPRPy
 function "makeDataCube", which is used for 3D data interpolation. You
 can set the data cube's resolution in x-, y- and z-direction, set
